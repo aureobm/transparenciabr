@@ -7,6 +7,5 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.route('bolsa-familia');
-  this.route('seguro-safra');
+  this.route('record');
 });

@@ -1,0 +1,12 @@
+<Jumbo>
+  <h2>Emendas Paralamentares</h2>
+  <div class="records">
+    <ul class="results">
+      {{#each @model as |record|}}
+        <li><Record @model={{record}} /></li>
+      {{/each}}
+    </ul>
+  </div>
+
+  <LinkTo @route="index" class="button">Voltar</LinkTo>
+</Jumbo>
